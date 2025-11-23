@@ -1,0 +1,47 @@
+:root{
+    font-size: 10px;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    
+}
+
+.qr-container{
+    min-width: 30rem;
+    min-height: 50rem;
+    border: .2rem solid #000000;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.qr-container__title{
+    text-align: center;
+}
+
+.qr-code-display{
+    margin: auto 0;
+    padding: 0 1rem;
+}
+
+.qr-container__actions{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    margin-top: auto;
+}
